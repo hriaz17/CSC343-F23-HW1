@@ -1,6 +1,6 @@
 // tests.js
 const assert = require('assert');
-const { describe, it } = require('mocha'); // install the 'mocha' package
+const { describe, it } = require('mocha');
 const graph = require('./index'); // graph must be accessible from 'index.js'
 
 // Import your graph class here
@@ -10,6 +10,3 @@ describe('graph Class', () => {
     });
     // Add more test cases if needed
 });
-
-// Run the tests
-mocha.run();

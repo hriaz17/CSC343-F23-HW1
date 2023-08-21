@@ -1,7 +1,7 @@
 {
-    "name": "graph-analysis-assignment",
+    "name": "CSC343-F23-HW1",
     "version": "1.0.0",
-    "description": "Graph analysis assignment with automated testing",
+    "description": "CSC 343 Human Computer Interaction: Assignment 0 taught by Stephen Kobourov & Haris Riaz at the University of Arizona, Fall 2023",
     "main": "index.js",
     "scripts": {
       "test": "mocha tests.js"
@@ -17,7 +17,7 @@
       "d3": "^7.0.0" 
     },
     "devDependencies": {
-      "mocha": "^9.1.3"
+      "mocha": "^10.2.0"
     }
   }
   

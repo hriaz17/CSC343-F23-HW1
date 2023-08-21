@@ -2,7 +2,7 @@
 
 const fs = require('fs');
 
-class graphClass {
+class GraphClass {
   constructor() {
     this.graph = {
       nodes: [],
@@ -29,8 +29,7 @@ class graphClass {
 }
 
 // Example usage
-// Example usage
-const graphClass = new graphClass();
+const graphClass = new GraphClass();
 graphClass.readGraphFromJSON('graph_data.json');
 graphClass.calculateDegreeHistogram();
 graphClass.displayHistogram();
