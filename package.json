@@ -1,0 +1,23 @@
+{
+    "name": "graph-analysis-assignment",
+    "version": "1.0.0",
+    "description": "Graph analysis assignment with automated testing",
+    "main": "index.js",
+    "scripts": {
+      "test": "mocha tests.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/hriaz17/CSC343-F23-HW1"
+    },
+    "keywords": ["graph", "analysis", "assignment", "javascript"],
+    "author": "Haris Riaz",
+    "license": "MIT",
+    "dependencies": {
+      "d3": "^7.0.0" 
+    },
+    "devDependencies": {
+      "mocha": "^9.1.3"
+    }
+  }
+  
