@@ -49,7 +49,7 @@ Follow these steps to set up your environment:
     ```
 
 5. **Write your code:**
-    You will implement one function each for each of the sub questions in the programming part of the assignment, Eg:` readGraphFromJSON(filePath)` inside the class `GraphClass`(./index.js)
+    You will implement one function each for each of the sub questions in the programming part of the assignment, Eg:`readGraphFromJSON(filePath)` inside the class `GraphClass`(./index.js)
 
     Also, you **should not edit** these files:
     - `./tests.js`
