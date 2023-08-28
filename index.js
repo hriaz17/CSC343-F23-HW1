@@ -1,37 +1,51 @@
 // index.js
-
 const fs = require('fs');
 
 class GraphClass {
   constructor() {
     this.graph = {
       nodes: [],
-      edges: []
+      edges: [],
+      nodeDegrees: {}
     };
     this.degreeHistogram = {};
   }
 
+  addEdge(source, target) {
+
+  }
+
   readGraphFromJSON(filePath) {
-    // write your code here
+
   }
 
   writeGraphToJSON(filePath) {
-    // write code here
+
+  }
+
+  computeDegree(node) {
+
+  }
+
+  addNodeDegreesAsAttributes() {
+
   }
 
   calculateDegreeHistogram() {
-    // write your code here
+    
   }
 
   displayHistogram() {
-    // write your code here
+
   }
 }
 
+module.exports = GraphClass;
+
 // Example usage
 const graphClass = new GraphClass();
-graphClass.readGraphFromJSON('graph_data.json');
+graphClass.readGraphFromJSON('imdb_data.json');
+graphClass.addNodeDegreesAsAttributes() 
 graphClass.calculateDegreeHistogram();
 graphClass.displayHistogram();
-
 graphClass.writeGraphToJSON('output_graph.json');
