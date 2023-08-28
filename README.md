@@ -94,6 +94,8 @@ Follow these steps to set up your environment:
     
     **Do not merge the pull request.**
 
+    Your instructor will grade the code of this pull request. Pull requests submitted after the deadline won’t be considered. You don't have to submit the code on D2L.
+
 8. **Grading:**
 
     The programming parts of this assignment will be graded primarily on their ability to pass the tests that have been provided to you on GitHub after the pull request. Assignments that pass all, and with the corresponding code implementing the correct logic, will receive at least 30 points.
