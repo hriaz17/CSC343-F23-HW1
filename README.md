@@ -86,6 +86,7 @@ Follow these steps to set up your environment:
 
     There are test cases that will be run automatically (via [Github Actions](https://github.com/features/actions)) when a pull request is submitted. These are the same as `npm test`. 
     So if your code passed `npm test` in your machine, it’s highly likely that it will pass in GitHub. Nevertheless, you should make sure that you see a green tick mark or a message saying “All Checks Have Passed” like this:
+    
     ![like this:](passed.png)
 
     If your test cases are failing, you will get an error message saying "All Checks Have Failed".
