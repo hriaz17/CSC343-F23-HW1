@@ -1,30 +1,33 @@
-[
-    {
-        "rank": "1",
-        "id": "tt0111161",
-        "name": "The Shawshank Redemption",
-        "cast_id": "1,2,3",
-        "cast_name": "Saige, Bowen, Leighton"
-    },
-    {
-        "rank": "2",
-        "id": "tt0068646",
-        "name": "The Godfather",
-        "cast_id": "2,4,8",
-        "cast_name": "Bowen, Franklin, Teri"
-    },
-    {
-        "rank": "3",
-        "id": "tt0468569",
-        "name": "The Dark Knight",
-        "cast_id": "8,6,12",
-        "cast_name": "Teri, Bugg, Amelie"
-    },
-    {
-        "rank": "4",
-        "id": "tt0071562",
-        "name": "The Godfather Part II",
-        "cast_id": "1,2,6,7,13",
-        "cast_name": "Saige, Bowen, Bugg, Allie, Trent"
-    }
-]
+{
+    "directed": false,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "id": "1",
+            "name": "The Shawshank Redemption",
+            "genre": "Drama"
+        },
+        {
+            "id": "2",
+            "name": "Die Hard 2",
+            "genre": "Action,Thriller"
+        },
+        {
+            "id": "3",
+            "name": "Lean On Me",
+            "genre": "Action,Drama"
+        }
+
+    ],
+    "links": [
+        {
+            "source": "1",
+            "target": "2"
+        },
+        {
+            "source": "1",
+            "target": "3"
+        }
+    ]
+}
